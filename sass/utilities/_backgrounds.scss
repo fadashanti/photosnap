@@ -1,0 +1,27 @@
+.bg-white {
+    background-color: var(--pure-white);
+}
+
+.bg-black {
+    background-color: var(--pure-black);
+}
+
+.bg-light-grey {
+    background-color: var(--light-grey);
+}
+
+.opacity-25 {
+    opacity: 0.25;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+
+
+.md\:bg-transparent {
+    @include respond-to(medium) {
+        background-color: transparent;
+    }
+}
